@@ -1,0 +1,7 @@
+# IP
+order allow,deny
+deny from 103.146.189.144
+deny from 202.73.26.78
+deny from 35.93.102.148
+deny from 188.166.237.147
+allow from all
