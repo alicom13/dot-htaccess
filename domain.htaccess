@@ -1,0 +1,7 @@
+SetEnvIf Referer "woibujang.wiki" spammer
+SetEnvIf Referer "woibujang.com" spammer
+<Files *>
+    Order Allow,Deny
+    Allow from all
+    Deny from env=spammer
+</Files>
